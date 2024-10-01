@@ -6,6 +6,7 @@ namespace fundamentals {
 		window.glGLFWWindowCreation();
 		init.glGLADInit();
 		shaderProgram.glCreateShaderProgram();
+		buffor.glBuffersCreation(1, 1);
 	}
 
 	FundamentalsApp::~FundamentalsApp() {
@@ -19,6 +20,10 @@ namespace fundamentals {
 			window.glColorClear();
 
 			shaderProgram.glUsingProgram();
+
+			buffor.glBufferBinding();
+
+			draw.glDrawing(0, 3);
 
 			window.glLooper();
 		}

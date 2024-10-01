@@ -3,6 +3,8 @@
 #include "glInit.hpp"
 #include "glWindow.hpp"
 #include "glShaderProgram.hpp"
+#include "glBuffor.hpp"
+#include "glDraw.hpp"
 
 namespace fundamentals {
 	class FundamentalsApp {
@@ -15,5 +17,7 @@ namespace fundamentals {
 		GlInitialization init{ 3, 3};
 		GlWindow window{ 800, 600, "Sielol" };
 		GlShaderProgram shaderProgram;
+		GlBuffor buffor{"D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\vertices.txt"};
+		GlDraw draw;
 	};
 }

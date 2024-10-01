@@ -39,6 +39,12 @@
     <ClCompile Include="glShaderProgram.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="glBuffor.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="glDraw.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fundamentalsApp.hpp">
@@ -59,6 +65,12 @@
     <ClInclude Include="glShaderProgram.hpp">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
+    <ClInclude Include="glBuffor.hpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="glDraw.hpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShader.vert">
@@ -67,5 +79,10 @@
     <None Include="fragmentShader.frag">
       <Filter>Pliki źródłowe</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vertices.txt">
+      <Filter>Pliki źródłowe</Filter>
+    </Text>
   </ItemGroup>
 </Project>
