@@ -6,7 +6,7 @@ namespace fundamentals {
 		window.glGLFWWindowCreation();
 		init.glGLADInit();
 		shaderProgram.glCreateShaderProgram();
-		buffor.glBuffersCreation(1, 1);
+		buffor.glBuffersCreation(1, 1, 1);
 		textures.loadTextures();
 	}
 
@@ -26,7 +26,7 @@ namespace fundamentals {
 
 			buffor.glBufferBinding();
 
-			draw.glDrawing(0, 6);
+			draw.glDrawing(6);
 
 			window.glLooper();
 		}

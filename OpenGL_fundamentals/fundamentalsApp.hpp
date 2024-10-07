@@ -18,7 +18,7 @@ namespace fundamentals {
 		GlInitialization init{ 3, 3};
 		GlWindow window{ 800, 600, "Sielol" };
 		GlShaderProgram shaderProgram;
-		GlBuffor buffor{"D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\vertices.txt"};
+		GlBuffor buffor{"D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\vertices.txt","D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\indices.txt" };
 		GlDraw draw;
 		GlTextureLoader textures;
 	};

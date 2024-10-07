@@ -7,7 +7,7 @@ namespace fundamentals {
 	GlDraw::GlDraw(){}
 	GlDraw::~GlDraw(){}
 
-	void GlDraw::glDrawing(int first, int second) {
-		glDrawArrays(GL_TRIANGLES, first, second);
+	void GlDraw::glDrawing(int first) {
+		glDrawElements(GL_TRIANGLES, first, GL_UNSIGNED_INT, 0);
 	}
 }

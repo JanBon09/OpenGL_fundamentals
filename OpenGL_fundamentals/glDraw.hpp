@@ -6,7 +6,7 @@ namespace fundamentals {
 		GlDraw();
 		~GlDraw();
 
-		void glDrawing(int, int);
+		void glDrawing(int);
 	private:
 	};
 }

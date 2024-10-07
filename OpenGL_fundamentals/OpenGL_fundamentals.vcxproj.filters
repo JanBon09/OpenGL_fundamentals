@@ -96,6 +96,9 @@
     <Text Include="vertices.txt">
       <Filter>Pliki źródłowe</Filter>
     </Text>
+    <Text Include="indices.txt">
+      <Filter>Pliki źródłowe</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="wall.jpg">
