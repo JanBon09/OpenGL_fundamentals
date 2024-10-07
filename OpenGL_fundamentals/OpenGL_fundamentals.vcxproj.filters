@@ -45,6 +45,12 @@
     <ClCompile Include="glDraw.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="glTextureLoader.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fundamentalsApp.hpp">
@@ -71,6 +77,12 @@
     <ClInclude Include="glDraw.hpp">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="glTextureLoader.hpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="vertexShader.vert">
@@ -84,5 +96,10 @@
     <Text Include="vertices.txt">
       <Filter>Pliki źródłowe</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="wall.jpg">
+      <Filter>Pliki źródłowe</Filter>
+    </Image>
   </ItemGroup>
 </Project>

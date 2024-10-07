@@ -5,6 +5,7 @@
 #include "glShaderProgram.hpp"
 #include "glBuffor.hpp"
 #include "glDraw.hpp"
+#include "glTextureLoader.hpp"
 
 namespace fundamentals {
 	class FundamentalsApp {
@@ -19,5 +20,6 @@ namespace fundamentals {
 		GlShaderProgram shaderProgram;
 		GlBuffor buffor{"D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\vertices.txt"};
 		GlDraw draw;
+		GlTextureLoader textures;
 	};
 }

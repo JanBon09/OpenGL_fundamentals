@@ -7,6 +7,7 @@ namespace fundamentals {
 		init.glGLADInit();
 		shaderProgram.glCreateShaderProgram();
 		buffor.glBuffersCreation(1, 1);
+		textures.loadTextures();
 	}
 
 	FundamentalsApp::~FundamentalsApp() {
@@ -19,11 +20,13 @@ namespace fundamentals {
 
 			window.glColorClear();
 
+			textures.bindTextures();
+
 			shaderProgram.glUsingProgram();
 
 			buffor.glBufferBinding();
 
-			draw.glDrawing(0, 3);
+			draw.glDrawing(0, 6);
 
 			window.glLooper();
 		}

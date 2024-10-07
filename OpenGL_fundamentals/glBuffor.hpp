@@ -11,7 +11,7 @@ namespace fundamentals {
 		void glReadVertices();
 	private:
 		unsigned int VBO, VAO;
-		float vertices[9];
+		float vertices[24];
 		const char* verticesPath;
 	};
 }
