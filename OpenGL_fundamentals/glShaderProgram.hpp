@@ -10,6 +10,7 @@ namespace fundamentals {
 
 		void glCreateShaderProgram();
 		void glUsingProgram();
+		unsigned int glShaderProgram();
 	private:
 		unsigned int vertexShader = 0, fragmentShader = 0, shaderProgram = 0;
 		GlShaders shaders{"D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\vertexShader.vert", "D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\fragmentShader.frag" };

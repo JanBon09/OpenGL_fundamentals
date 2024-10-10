@@ -51,6 +51,9 @@
     <ClCompile Include="glTextureLoader.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="glMatrix.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fundamentalsApp.hpp">
@@ -81,6 +84,9 @@
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="glTextureLoader.hpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="glMatrix.hpp">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
   </ItemGroup>

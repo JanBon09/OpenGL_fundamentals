@@ -74,7 +74,7 @@ namespace fundamentals {
 		std::string temp;
 
 		if (!fin) {
-			std::cerr << "Failed to open vertices file" << std::endl;
+			std::cerr << "Failed to open indices file" << std::endl;
 			fin.close();
 			exit(EXIT_FAILURE);
 		}

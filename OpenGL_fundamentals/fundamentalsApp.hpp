@@ -6,6 +6,7 @@
 #include "glBuffor.hpp"
 #include "glDraw.hpp"
 #include "glTextureLoader.hpp"
+#include "glMatrix.hpp"
 
 namespace fundamentals {
 	class FundamentalsApp {
@@ -21,5 +22,6 @@ namespace fundamentals {
 		GlBuffor buffor{"D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\vertices.txt","D:\\OpenGL_Projects\\OpenGL_fundamentals\\OpenGL_fundamentals\\indices.txt" };
 		GlDraw draw;
 		GlTextureLoader textures;
+		GlMatrix matrix;
 	};
 }

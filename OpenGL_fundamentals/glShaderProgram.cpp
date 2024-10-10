@@ -39,4 +39,8 @@ namespace fundamentals {
 	void GlShaderProgram::glUsingProgram() {
 		glUseProgram(shaderProgram);
 	}
+
+	unsigned int GlShaderProgram::glShaderProgram() {
+		return shaderProgram;
+	}
 }

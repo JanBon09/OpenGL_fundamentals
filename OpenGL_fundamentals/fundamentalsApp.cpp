@@ -22,7 +22,13 @@ namespace fundamentals {
 
 			textures.bindTextures();
 
+			matrix.glMatrixTranslation(0.5f, -0.5f, 0.0f);
+			matrix.glMatrixRotation((float)glfwGetTime(), 0.0f, 0.0f, 1.0f);
+			
+
 			shaderProgram.glUsingProgram();
+
+			matrix.glUniformingMatrix(shaderProgram.glShaderProgram());
 
 			buffor.glBufferBinding();
 
